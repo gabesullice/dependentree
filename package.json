@@ -4,7 +4,8 @@
   "description": "A generic resolver for dependency trees",
   "main": "dist/index.js",
   "scripts": {
-    "test": "ava"
+    "test": "ava",
+    "webpack": "webpack"
   },
   "repository": {
     "type": "git",
@@ -17,6 +18,10 @@
   },
   "homepage": "https://github.com/gabesullice/dependentree#readme",
   "devDependencies": {
-    "ava": "^0.19.1"
+    "ava": "^0.19.1",
+    "babel-core": "^6.24.1",
+    "babel-loader": "^7.0.0",
+    "babel-preset-latest": "^6.24.1",
+    "webpack": "^2.6.0"
   }
 }
