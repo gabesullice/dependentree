@@ -1,0 +1,22 @@
+{
+  "name": "dependentree",
+  "version": "1.0.0",
+  "description": "A generic resolver for dependency trees",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "ava"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gabesullice/dependentree.git"
+  },
+  "author": "Gabriel SULLICE",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gabesullice/dependentree/issues"
+  },
+  "homepage": "https://github.com/gabesullice/dependentree#readme",
+  "devDependencies": {
+    "ava": "^0.19.1"
+  }
+}
