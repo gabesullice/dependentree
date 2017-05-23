@@ -5,7 +5,8 @@
   "main": "dist/index.js",
   "scripts": {
     "test": "ava",
-    "webpack": "webpack"
+    "webpack": "webpack",
+    "document": "jsdoc ./src/index.js -d docs"
   },
   "repository": {
     "type": "git",
@@ -22,6 +23,7 @@
     "babel-core": "^6.24.1",
     "babel-loader": "^7.0.0",
     "babel-preset-latest": "^6.24.1",
+    "jsdoc": "^3.4.3",
     "webpack": "^2.6.0"
   }
 }
